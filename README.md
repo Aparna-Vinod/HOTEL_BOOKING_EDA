@@ -29,29 +29,29 @@ I created seven visualisations, each to explore a different question about the b
 
 ### 1. Hotel Type Distribution
 
-![Hotel Type Distribution]("C:\Users\LENOVO\OneDrive\画像\Screenshots\Hotel_Type.png")
+![Hotel Type Distribution](visualizations/Hotel_Type.png)
 
 ### 2. Cancellation Rate by Hotel Type
 
-![Cancellation Rate]
+![Cancellation Rate](visualizations/Cancellation_Rate.png)
 
 ### 3. Monthly Booking Trends
 
-![Monthly Bookings](images/03_monthly_bookings.png)
+![Monthly Bookings](visualizations/Monthly_Bookings_trends.png)
 
 ### 4. Booking Lead Time Distribution
 
-![Lead Time Distribution](images/04_lead_time_distribution.png)
+![Lead Time Distribution](visualizations/Lead_Time.png)
 
 ### 5. Average Daily Rate (ADR) Distribution
 
-![ADR Distribution](images/05_adr_distribution.png)
+![ADR Distribution](visualizations/ADR_Distribution.png)
 
 ### 6. Market Segment Distribution
 
-![Market Segment](images/06_market_segment.png)
+![Market Segment](visualizations/Market_Segment.png)
 
 ### 7. Correlation Heatmap
 
-![Correlation Heatmap](images/07_correlation_heatmap.png)
+![Correlation Heatmap](visualizations/Correlation_Heatmap.png)
  
