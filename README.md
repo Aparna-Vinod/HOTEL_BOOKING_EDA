@@ -79,7 +79,7 @@ I used two visualizations to understand the distribution of missing values in th
 This chart shows the percentage of missing values in each column. The 'company' column had the highest percentage of missing values (94.31%), followed by 'agent' (13.69%). The 'country' and 'children' columns had very few missing values.
 
 
-<img src="Visualizations/Missing_Value_visualization/missing_values_percentage_by_column.png" alt="Missing Values Percentage" width="500">
+<img src="Visualizations/Missing_Value_visualization/missing_value_percentage_by_column.png" alt="Missing Values Percentage" width="500">
 
 
 **2. Missing Values Heatmap**
