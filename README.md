@@ -6,7 +6,7 @@ I used Python, Pandas, Matplotlib and Seaborn to inspect the data, deal with mis
 
 The analysis was carried out in Google Colab.
 
-# Dataset Used - Hotel Booking Demand dataset on Kaggle
+## Dataset Used - Hotel Booking Demand dataset on Kaggle
 
 The Original dataset contains 119,390 rows and 32 columns. It includes information about two types of hotels - City Hotels and Resort Hotels - along with booking dates, guest details, length of stay, booking channels, customer types, cancellation status and average daily rate (ADR).
 
@@ -21,4 +21,37 @@ I started by getting familiar with the dataset before moving on to visualisation
 7. Created two additional columns — total_guests and total_nights — to make some parts of the analysis easier.
 8. Investigated unusual values, such as negative or unusually high ADR values, bookings with no guests, and very long lead times.
 9. Created charts to explore booking patterns and relationships in the data.
+    
 After removing exact duplicate records, the cleaned dataset contained 87,396 rows. I kept missing agent and company identifiers because there was no reliable way to determine their actual values. For a few charts, I excluded extreme values only from that particular visualisation so that the main patterns would be easier to see; these records were not removed from the main cleaned dataset.
+
+## Visualisations
+I created seven visualisations, each to explore a different question about the bookings:
+
+### 1. Hotel Type Distribution
+
+![Hotel Type Distribution]("C:\Users\LENOVO\OneDrive\画像\Screenshots\Hotel_Type.png")
+
+### 2. Cancellation Rate by Hotel Type
+
+![Cancellation Rate](images/02_cancellation_rate.png)
+
+### 3. Monthly Booking Trends
+
+![Monthly Bookings](images/03_monthly_bookings.png)
+
+### 4. Booking Lead Time Distribution
+
+![Lead Time Distribution](images/04_lead_time_distribution.png)
+
+### 5. Average Daily Rate (ADR) Distribution
+
+![ADR Distribution](images/05_adr_distribution.png)
+
+### 6. Market Segment Distribution
+
+![Market Segment](images/06_market_segment.png)
+
+### 7. Correlation Heatmap
+
+![Correlation Heatmap](images/07_correlation_heatmap.png)
+ 
