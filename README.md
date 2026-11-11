@@ -88,8 +88,8 @@ This chart shows the percentage of missing values in each column. The 'company' 
 The heatmap provides a visual overview of missing values across the booking records. It shows that missing values are mainly concentrated in the 'company' and 'agent' columns, while most other columns contain complete records.
 
 <img src="Visualizations/Missing_Value_visualization/Missing_Values_Heatmap.png" alt="Missing Values Heatmap" width="500">
----
 
+---
 ## 🔍 Exploratory Data Analysis
 
 After preprocessing, I explored the dataset to understand hotel booking patterns, customer preferences, and relationships between different variables.
@@ -136,8 +136,8 @@ I created seven visualisations, each to explore a different question about the b
 ### 7. Correlation Heatmap
 
 <img src="Visualizations/Correlation_Heatmap.png" alt="Correlation Heatmap" width="500">
----
 
+---
 ## 📌 Key Observations
 
 While exploring the dataset, I came across a few interesting patterns:
