@@ -68,6 +68,21 @@ The following preprocessing steps were performed:
 
 After removing exact duplicate records, the cleaned dataset contained **87,396 rows and 32 columns**. Extreme values were excluded only from specific visualizations where necessary to make the main patterns easier to understand. These records were not removed from the main cleaned dataset.
 
+### Missing Value Analysis
+
+I used two visualizations to understand the distribution of missing values in the dataset.
+
+**1. Missing Values Percentage by Column**
+
+This chart shows the percentage of missing values in each column. The `company` column had the highest percentage of missing values (94.31%), followed by `agent` (13.69%). The `country` and `children` columns had very few missing values.
+
+![Missing Values Percentage](visualizations/Missing%20Value%20Visualization/Missing_Values_Percentage_by_column.png)
+**2. Missing Values Heatmap**
+
+The heatmap provides a visual overview of missing values across the booking records. It shows that missing values are mainly concentrated in the `company` and `agent` columns, while most other columns contain complete records.
+
+![Missing Values Heatmap](visualizations/Missing%20Value%20Visualization/Missing_Values_Heatmap.png)
+
 ## 🔍 Exploratory Data Analysis
 
 After preprocessing, I explored the dataset to understand hotel booking patterns, customer preferences, and relationships between different variables.
