@@ -8,12 +8,12 @@ I used Python, Pandas, Matplotlib and Seaborn to inspect the data, deal with mis
 
 The analysis was carried out in Google Colab.
 
----------------------------------------------------------------------------------------------------------------------
+---
 ## 📊 Dataset
 
 Dataset: Hotel Booking Demand
 
-Source: Kaggle – Hotel Booking Demand
+Source: [Hotel Booking Demand – Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
 
 The dataset contains hotel booking information from two types of hotels:
 - City Hotel
@@ -43,8 +43,7 @@ The dataset contains hotel booking information from two types of hotels:
 - market_segment – Booking market segment.
 
 - adr – Average Daily Rate.
-
----------------------------------------------------------------------------------------------------------------------
+---
 ## ⚙️ Data Preprocessing
 
 Before starting the analysis, I first checked the dataset to understand its structure and identify issues that needed to be addressed.
@@ -73,7 +72,7 @@ The following preprocessing steps were performed:
 After removing exact duplicate records, the cleaned dataset contained **87,396 rows and 32 columns**. Extreme values were excluded only from specific visualizations where necessary to make the main patterns easier to understand. These records were not removed from the main cleaned dataset.
 
 ### Missing Value Analysis
----------------------------------------------------------------------------------------------------------------------
+---
 I used two visualizations to understand the distribution of missing values in the dataset.
 
 **1. Missing Values Percentage by Column**
@@ -89,8 +88,7 @@ This chart shows the percentage of missing values in each column. The 'company' 
 The heatmap provides a visual overview of missing values across the booking records. It shows that missing values are mainly concentrated in the 'company' and 'agent' columns, while most other columns contain complete records.
 
 <img src="Visualizations/Missing_Value_visualization/Missing_Values_Heatmap.png" alt="Missing Values Heatmap" width="500">
-
----------------------------------------------------------------------------------------------------------------------
+---
 ## 🔍 Exploratory Data Analysis
 
 After preprocessing, I explored the dataset to understand hotel booking patterns, customer preferences, and relationships between different variables.
@@ -137,8 +135,7 @@ I created seven visualisations, each to explore a different question about the b
 ### 7. Correlation Heatmap
 
 <img src="Visualizations/Correlation_Heatmap.png" alt="Correlation Heatmap" width="500">
-
- ---------------------------------------------------------------------------------------------------------------------
+---
 ## 📌 Key Observations
 
 While exploring the dataset, I came across a few interesting patterns:
@@ -150,8 +147,7 @@ While exploring the dataset, I came across a few interesting patterns:
 - **Booking lead times varied quite a bit.** Most guests made their bookings closer to their arrival date, while some booked several months in advance.
 
 These patterns helped me get a better understanding of booking behaviour in the dataset. They reflect only the data explored in this project and may differ across other hotels or destinations.
-
----------------------------------------------------------------------------------------------------------------------
+---
 ## 🛠️ Technologies Used
 
 - Python
@@ -160,8 +156,7 @@ These patterns helped me get a better understanding of booking behaviour in the 
 - Matplotlib
 - Seaborn
 - Google Colab
-
----------------------------------------------------------------------------------------------------------------------
+---
 ## 📝 Conclusion
 
 Through this project, I explored the Hotel Booking Demand dataset using Python and Pandas. I worked on cleaning the data, handling missing values and duplicates, identifying outliers, and creating visualizations to understand booking patterns.
