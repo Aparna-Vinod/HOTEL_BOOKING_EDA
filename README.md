@@ -21,9 +21,11 @@ The dataset contains hotel booking information from two types of hotels:
 - Resort Hotel
 
 ### Dataset Details:
-Original number of records: 119,390
-Number of columns: 32
-Numerical and categorical features are included.
+- Original number of records: 119,390
+
+- Number of columns: 32
+
+- Numerical and categorical features are included.
 
 ### Some of the important columns are:
 - hotel – Type of hotel.
