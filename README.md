@@ -89,6 +89,7 @@ The heatmap provides a visual overview of missing values across the booking reco
 
 <img src="Visualizations/Missing_Value_visualization/Missing_Values_Heatmap.png" alt="Missing Values Heatmap" width="500">
 ---
+
 ## 🔍 Exploratory Data Analysis
 
 After preprocessing, I explored the dataset to understand hotel booking patterns, customer preferences, and relationships between different variables.
@@ -136,6 +137,7 @@ I created seven visualisations, each to explore a different question about the b
 
 <img src="Visualizations/Correlation_Heatmap.png" alt="Correlation Heatmap" width="500">
 ---
+
 ## 📌 Key Observations
 
 While exploring the dataset, I came across a few interesting patterns:
