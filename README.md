@@ -58,7 +58,7 @@ The following preprocessing steps were performed:
 
 4. **Handling Missing Values:**
    - Filled missing values in the 'children' column using the median.
-   - Replaced missing values in the 'country' column with 'unknown'.
+   - Replaced missing values in the 'country' column with 'Unknown'.
    - Retained missing values in the 'agent' and 'company' columns because there was no reliable way to determine their actual values.
 
 5. **Data Type Conversion:** Converted `reservation_status_date' into datetime format to support date-related analysis.
