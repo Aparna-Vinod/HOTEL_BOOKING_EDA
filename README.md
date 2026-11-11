@@ -76,13 +76,13 @@ I used two visualizations to understand the distribution of missing values in th
 
 This chart shows the percentage of missing values in each column. The `company` column had the highest percentage of missing values (94.31%), followed by `agent` (13.69%). The `country` and `children` columns had very few missing values.
 
-![Missing Values Percentage](Visualizations/Missing%20Value%20visualization/missing_value_percentage_by_column.png)
+![Missing Values Percentage](Visualizations/Missing_Value_visualization/missing_value_percentage_by_column.png)
 
 **2. Missing Values Heatmap**
 
 The heatmap provides a visual overview of missing values across the booking records. It shows that missing values are mainly concentrated in the `company` and `agent` columns, while most other columns contain complete records.
 
-![Missing Values Heatmap](Visualizations/Missing%20Value%20visualization/Missing_Values_Heatmap.png)
+![Missing Values Heatmap](Visualizations/Missing_Value_visualization/Missing_Values_Heatmap.png)
 
 ## 🔍 Exploratory Data Analysis
 
