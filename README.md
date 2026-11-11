@@ -15,8 +15,9 @@ Dataset: Hotel Booking Demand
 Source: Kaggle – Hotel Booking Demand
 
 The dataset contains hotel booking information from two types of hotels:
-1.City Hotel
-2.Resort Hotel
+- City Hotel
+
+- Resort Hotel
 
 ### Dataset Details:
 Original number of records: 119,390
@@ -25,12 +26,19 @@ Numerical and categorical features are included.
 
 ### Some of the important columns are:
 hotel – Type of hotel.
+
 is_canceled – Whether the booking was cancelled.
+
 lead_time – Number of days between booking and arrival.
+
 arrival_date_month – Month of arrival.
+
 adults, children, babies – Number of guests.
+
 country – Country of the guest.
+
 market_segment – Booking market segment.
+
 adr – Average Daily Rate.
 
 ## ⚙️ Data Preprocessing
