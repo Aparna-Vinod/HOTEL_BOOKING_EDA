@@ -7,6 +7,7 @@ This project focuses on exploring the Hotel Booking Demand dataset using Python 
 I used Python, Pandas, Matplotlib and Seaborn to inspect the data, deal with missing values and duplicate records, calculate summary statistics, and create visualisations. I wanted to go beyond simply looking at the numbers and find patterns that help explain how people book hotels, when they travel, and how often bookings are cancelled.
 
 The analysis was carried out in Google Colab.
+---------------------------------------------------------------------------------------------------------------------
 
 ## 📊 Dataset
 
