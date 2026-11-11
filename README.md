@@ -55,3 +55,23 @@ I created seven visualisations, each to explore a different question about the b
 
 ![Correlation Heatmap](visualizations/Correlation_Heatmap.png)
  
+## A Few Takeaways from the Data
+
+While exploring the dataset, I came across a few interesting patterns:
+
+- **City Hotels received more bookings** compared to Resort Hotels.
+- **July and August had the highest number of arrivals**, showing that these months were particularly busy.
+- **Cancellations were more common for City Hotels** than for Resort Hotels.
+- **Online Travel Agents contributed the largest share of bookings**, making them the most commonly used market segment.
+- **Booking lead times varied quite a bit.** Most guests made their bookings closer to their arrival date, while some booked several months in advance.
+
+These patterns helped me get a better understanding of booking behaviour in the dataset. They reflect only the data explored in this project and may differ across other hotels or destinations.
+
+## Tools and Technologies I Worked With
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
