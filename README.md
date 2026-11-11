@@ -106,8 +106,8 @@ After preprocessing, I explored the dataset to understand hotel booking patterns
 - **Market Segment Analysis:** Investigated the different market segments contributing to hotel bookings.
 - **Correlation Analysis:** Used a correlation heatmap to understand relationships between numerical variables and identify patterns among them.
 
-## Visualisations
-I created seven visualisations, each to explore a different question about the bookings:
+## Visualizations
+I created seven visualizations, each to explore a different question about the bookings:
 
 ### 1. Hotel Type Distribution
 
