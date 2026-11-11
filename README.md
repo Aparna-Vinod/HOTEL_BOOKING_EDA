@@ -7,8 +7,8 @@ This project focuses on exploring the Hotel Booking Demand dataset using Python 
 I used Python, Pandas, Matplotlib and Seaborn to inspect the data, deal with missing values and duplicate records, calculate summary statistics, and create visualisations. I wanted to go beyond simply looking at the numbers and find patterns that help explain how people book hotels, when they travel, and how often bookings are cancelled.
 
 The analysis was carried out in Google Colab.
----------------------------------------------------------------------------------------------------------------------
 
+---------------------------------------------------------------------------------------------------------------------
 ## 📊 Dataset
 
 Dataset: Hotel Booking Demand
@@ -42,6 +42,7 @@ Numerical and categorical features are included.
 
 - adr – Average Daily Rate.
 
+---------------------------------------------------------------------------------------------------------------------
 ## ⚙️ Data Preprocessing
 
 Before starting the analysis, I first checked the dataset to understand its structure and identify issues that needed to be addressed.
@@ -85,6 +86,7 @@ The heatmap provides a visual overview of missing values across the booking reco
 
 ![Missing Values Heatmap](Visualizations/Missing_Value_visualization/Missing_Values_Heatmap.png)
 
+---------------------------------------------------------------------------------------------------------------------
 ## 🔍 Exploratory Data Analysis
 
 After preprocessing, I explored the dataset to understand hotel booking patterns, customer preferences, and relationships between different variables.
@@ -131,7 +133,8 @@ I created seven visualisations, each to explore a different question about the b
 ### 7. Correlation Heatmap
 
 ![Correlation Heatmap](Visualizations/Correlation_Heatmap.png)
- 
+
+ ---------------------------------------------------------------------------------------------------------------------
 ## 📌 Key Observations
 
 While exploring the dataset, I came across a few interesting patterns:
@@ -144,6 +147,7 @@ While exploring the dataset, I came across a few interesting patterns:
 
 These patterns helped me get a better understanding of booking behaviour in the dataset. They reflect only the data explored in this project and may differ across other hotels or destinations.
 
+---------------------------------------------------------------------------------------------------------------------
 ## 🛠️ Technologies Used
 
 - Python
@@ -153,6 +157,7 @@ These patterns helped me get a better understanding of booking behaviour in the 
 - Seaborn
 - Google Colab
 
+---------------------------------------------------------------------------------------------------------------------
 ## 📝 Conclusion
 
 Through this project, I explored the Hotel Booking Demand dataset using Python and Pandas. I worked on cleaning the data, handling missing values and duplicates, identifying outliers, and creating visualizations to understand booking patterns.
