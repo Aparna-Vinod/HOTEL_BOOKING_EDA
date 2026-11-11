@@ -125,7 +125,7 @@ I created seven visualisations, each to explore a different question about the b
 
 ### 6. Market Segment Distribution
 
-![Market Segment](Visualizations/Market_Segment.png)
+![Market Segment](Visualizations/Market_Segments.png)
 
 ### 7. Correlation Heatmap
 
