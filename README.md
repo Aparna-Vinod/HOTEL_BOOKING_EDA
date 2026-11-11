@@ -149,6 +149,7 @@ While exploring the dataset, I came across a few interesting patterns:
 - **Booking lead times varied quite a bit.** Most guests made their bookings closer to their arrival date, while some booked several months in advance.
 
 These patterns helped me get a better understanding of booking behaviour in the dataset. They reflect only the data explored in this project and may differ across other hotels or destinations.
+
 ---
 ## 🛠️ Technologies Used
 
