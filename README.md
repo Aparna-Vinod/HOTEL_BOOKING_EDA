@@ -33,7 +33,7 @@ I created seven visualisations, each to explore a different question about the b
 
 ### 2. Cancellation Rate by Hotel Type
 
-![Cancellation Rate](images/02_cancellation_rate.png)
+![Cancellation Rate]
 
 ### 3. Monthly Booking Trends
 
