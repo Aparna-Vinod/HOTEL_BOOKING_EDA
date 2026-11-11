@@ -54,15 +54,15 @@ The following preprocessing steps were performed:
 3. **Handling Duplicate Records:** Checked for duplicate records and removed 31,994 exact duplicates to avoid repeated entries in the analysis.
 
 4. **Handling Missing Values:**
-   - Filled missing values in the `children` column using the median.
-   - Replaced missing values in the `country` column with `Unknown`.
-   - Retained missing values in the `agent` and `company` columns because there was no reliable way to determine their actual values.
+   - Filled missing values in the 'children' column using the median.
+   - Replaced missing values in the 'country' column with 'unknown'.
+   - Retained missing values in the 'agent' and 'company' columns because there was no reliable way to determine their actual values.
 
-5. **Data Type Conversion:** Converted `reservation_status_date` into datetime format to support date-related analysis.
+5. **Data Type Conversion:** Converted `reservation_status_date' into datetime format to support date-related analysis.
 
 6. **Feature Creation:** Created two additional columns to make the analysis easier:
-   - `total_guests` – Total number of adults, children, and babies.
-   - `total_nights` – Total number of weekend and week nights.
+   - `total_guests' – Total number of adults, children, and babies.
+   - `total_nights' – Total number of weekend and week nights.
 
 7. **Outlier Analysis:** Investigated unusual values in columns such as ADR, lead time, and number of guests. This included negative or unusually high ADR values, bookings with no guests, and very long lead times.
 
@@ -74,13 +74,13 @@ I used two visualizations to understand the distribution of missing values in th
 
 **1. Missing Values Percentage by Column**
 
-This chart shows the percentage of missing values in each column. The `company` column had the highest percentage of missing values (94.31%), followed by `agent` (13.69%). The `country` and `children` columns had very few missing values.
+This chart shows the percentage of missing values in each column. The 'company' column had the highest percentage of missing values (94.31%), followed by 'agent' (13.69%). The 'country' and 'children' columns had very few missing values.
 
 ![Missing Values Percentage](Visualizations/Missing_Value_visualization/missing_value_percentage_by_column.png)
 
 **2. Missing Values Heatmap**
 
-The heatmap provides a visual overview of missing values across the booking records. It shows that missing values are mainly concentrated in the `company` and `agent` columns, while most other columns contain complete records.
+The heatmap provides a visual overview of missing values across the booking records. It shows that missing values are mainly concentrated in the 'company' and 'agent' columns, while most other columns contain complete records.
 
 ![Missing Values Heatmap](Visualizations/Missing_Value_visualization/Missing_Values_Heatmap.png)
 
