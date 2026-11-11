@@ -71,20 +71,22 @@ The following preprocessing steps were performed:
 After removing exact duplicate records, the cleaned dataset contained **87,396 rows and 32 columns**. Extreme values were excluded only from specific visualizations where necessary to make the main patterns easier to understand. These records were not removed from the main cleaned dataset.
 
 ### Missing Value Analysis
-
+---------------------------------------------------------------------------------------------------------------------
 I used two visualizations to understand the distribution of missing values in the dataset.
 
 **1. Missing Values Percentage by Column**
 
 This chart shows the percentage of missing values in each column. The 'company' column had the highest percentage of missing values (94.31%), followed by 'agent' (13.69%). The 'country' and 'children' columns had very few missing values.
 
-![Missing Values Percentage](Visualizations/Missing_Value_visualization/missing_value_percentage_by_column.png)
+
+<img src="Visualizations/Missing_Value_visualization/missing_values_percentage_by_column.png" alt="Missing Values Percentage" width="500">
+
 
 **2. Missing Values Heatmap**
 
 The heatmap provides a visual overview of missing values across the booking records. It shows that missing values are mainly concentrated in the 'company' and 'agent' columns, while most other columns contain complete records.
 
-![Missing Values Heatmap](Visualizations/Missing_Value_visualization/Missing_Values_Heatmap.png)
+<img src="Visualizations/Missing_Value_visualization/Missing_Values_Heatmap.png" alt="Missing Values Heatmap" width="500">
 
 ---------------------------------------------------------------------------------------------------------------------
 ## 🔍 Exploratory Data Analysis
@@ -108,31 +110,31 @@ I created seven visualisations, each to explore a different question about the b
 
 ### 1. Hotel Type Distribution
 
-![Hotel Type Distribution](Visualizations/Hotel_Type.png)
+<img src="Visualizations/Hotel_Type.png" alt="Hotel Type Distribution" width="500">
 
 ### 2. Cancellation Rate by Hotel Type
 
-![Cancellation Rate](Visualizations/Cancellation_Rate.png)
+<img src="Visualizations/Cancellation_Rate.png" alt="Cancellation Rate" width="500">
 
 ### 3. Monthly Booking Trends
 
-![Monthly Bookings](Visualizations/Monthly_Booking_trends.png)
+<img src="Visualizations/Monthly_Booking_trends.png" alt="Monthly Bookings" width="500">
 
 ### 4. Booking Lead Time Distribution
 
-![Lead Time Distribution](Visualizations/Lead_Time.png)
+<img src="Visualizations/Lead_Time.png" alt="Lead Time Distribution" width="500">
 
 ### 5. Average Daily Rate (ADR) Distribution
 
-![ADR Distribution](Visualizations/ADR_Distribution.png)
+<img src="Visualizations/ADR_Distribution.png" alt="ADR Distribution" width="500">
 
 ### 6. Market Segment Distribution
 
-![Market Segment](Visualizations/Market_Segments.png)
+<img src="Visualizations/Market_Segments.png" alt="Market Segment" width="500">
 
 ### 7. Correlation Heatmap
 
-![Correlation Heatmap](Visualizations/Correlation_Heatmap.png)
+<img src="Visualizations/Correlation_Heatmap.png" alt="Correlation Heatmap" width="500">
 
  ---------------------------------------------------------------------------------------------------------------------
 ## 📌 Key Observations
