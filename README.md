@@ -25,21 +25,21 @@ Number of columns: 32
 Numerical and categorical features are included.
 
 ### Some of the important columns are:
-hotel – Type of hotel.
+- hotel – Type of hotel.
 
-is_canceled – Whether the booking was cancelled.
+- is_canceled – Whether the booking was cancelled.
 
-lead_time – Number of days between booking and arrival.
+- lead_time – Number of days between booking and arrival.
 
-arrival_date_month – Month of arrival.
+- arrival_date_month – Month of arrival.
 
-adults, children, babies – Number of guests.
+- adults, children, babies – Number of guests.
 
-country – Country of the guest.
+- country – Country of the guest.
 
-market_segment – Booking market segment.
+- market_segment – Booking market segment.
 
-adr – Average Daily Rate.
+- adr – Average Daily Rate.
 
 ## ⚙️ Data Preprocessing
 
@@ -76,12 +76,13 @@ I used two visualizations to understand the distribution of missing values in th
 
 This chart shows the percentage of missing values in each column. The `company` column had the highest percentage of missing values (94.31%), followed by `agent` (13.69%). The `country` and `children` columns had very few missing values.
 
-![Missing Values Percentage](visualizations/Missing%20Value%20Visualization/Missing_Values_Percentage_by_column.png)
+![Missing Values Percentage](Visualizations/Missing%20Value%20visualization/Missing_Values_Percentage_by_column.png)
+
 **2. Missing Values Heatmap**
 
 The heatmap provides a visual overview of missing values across the booking records. It shows that missing values are mainly concentrated in the `company` and `agent` columns, while most other columns contain complete records.
 
-![Missing Values Heatmap](visualizations/Missing%20Value%20Visualization/Missing_Values_Heatmap.png)
+![Missing Values Heatmap](Visualizations/Missing%20Value%20visualization/Missing_Values_Heatmap.png)
 
 ## 🔍 Exploratory Data Analysis
 
@@ -104,31 +105,31 @@ I created seven visualisations, each to explore a different question about the b
 
 ### 1. Hotel Type Distribution
 
-![Hotel Type Distribution](visualizations/Hotel_Type.png)
+![Hotel Type Distribution](Visualizations/Hotel_Type.png)
 
 ### 2. Cancellation Rate by Hotel Type
 
-![Cancellation Rate](visualizations/Cancellation_Rate.png)
+![Cancellation Rate](Visualizations/Cancellation_Rate.png)
 
 ### 3. Monthly Booking Trends
 
-![Monthly Bookings](visualizations/Monthly_Bookings_trends.png)
+![Monthly Bookings](Visualizations/Monthly_Bookings_trends.png)
 
 ### 4. Booking Lead Time Distribution
 
-![Lead Time Distribution](visualizations/Lead_Time.png)
+![Lead Time Distribution](Visualizations/Lead_Time.png)
 
 ### 5. Average Daily Rate (ADR) Distribution
 
-![ADR Distribution](visualizations/ADR_Distribution.png)
+![ADR Distribution](Visualizations/ADR_Distribution.png)
 
 ### 6. Market Segment Distribution
 
-![Market Segment](visualizations/Market_Segment.png)
+![Market Segment](Visualizations/Market_Segment.png)
 
 ### 7. Correlation Heatmap
 
-![Correlation Heatmap](visualizations/Correlation_Heatmap.png)
+![Correlation Heatmap](Visualizations/Correlation_Heatmap.png)
  
 ## 📌 Key Observations
 
